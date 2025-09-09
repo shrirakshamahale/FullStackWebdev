@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my programs</title>
+</head>
+<body>
+   <h2>
+    select and opion below</h2> 
+    <div>
+    <label for="username">enter your username</label>
+    <input type="text" name="username "id="username" placeholder="enter your usrname" autofocus>
+    </div>
+    <div>
+        <lable for="female">female</lable>
+        <input type="radio" name="gender" id="female" value="female">
+    </div>
+    <div>
+        <labe></label>
+            <select name="fruits">
+            <option value="apple ">apple</option>
+            <option value="bananna">bananna</option>
+            <option value="orange ">orange </option>
+
+            </select>
+    </div>
+</body>
+</html>
