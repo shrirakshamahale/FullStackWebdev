@@ -1,0 +1,108 @@
+Build an HTML Audio and Video Player
+Build an app that is functionally similar to this example project. Try not to copy the example project, give it your own personal style.
+
+Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
+
+User Stories:
+
+You should have an h1 element for the main title of the page.
+You should have two section elements.
+Inside the first section element, you should have an h2 element for the title of the video playing.
+Below the h2 element, you should have a video element with controls and width attributes. The width attribute should be set to 640.
+Inside the video element, you should have a source element with a src attribute pointing to a video file and a type attribute.
+You can use https://cdn.freecodecamp.org/curriculum/labs/What is the map method and how does it work.mp4.
+Inside the second section element, you should have an h2 element for the title of the song playing.
+Below the h2 element, you should have an audio element with the controls and loop attributes, and a src attribute that points to an audio file.
+You can use https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3.
+Or https://cdn.freecodecamp.org/curriculum/js-music-player/we-are-going-to-make-it.mp3.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Audio and Video Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #004aad;
+      margin-bottom: 40px;
+    }
+
+    section {
+      background: #fff;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 700px;
+      max-width: 95%;
+    }
+
+    h2 {
+      color: #0078d7;
+      margin-bottom: 15px;
+    }
+
+    video, audio {
+      border-radius: 8px;
+      margin-top: 10px;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Custom Media Player</h1>
+
+  <section>
+    <h2>Learning the Map Method</h2>
+    <video controls width="640">
+      <source src="https://cdn.freecodecamp.org/curriculum/labs/What%20is%20the%20map%20method%20and%20how%20does%20it%20work.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section>
+    <h2>Sailing Away</h2>
+    <audio controls loop src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+</body>
+</html>
